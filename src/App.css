@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.locations-section {
+  width: 100vw;
+  height: 48vw;
+  position: relative;
+}
+
+.locations-background {
+  position: relative;
+  width: 100%;
+  top: -58%;
+}
+
+.locations-background img {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.locations-section::before {
+  content: '';
+  position: absolute;
+  background-image: url(/public/img/background-2.svg);
+  width: 100%;
+  height: 100%;
+  bottom: 20%;
+  z-index: -1;
+}
+
+.more-info-section {
+  width: 100vw;
+  height: 60vh;
+}
+
+.insurance-section {
+  width: 100vw;
+  height: 80vh;
+}
+
+.insurance-section img {
+  width: 100%;
+  height: 100%;
+}

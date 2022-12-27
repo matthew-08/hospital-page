@@ -1,0 +1,97 @@
+.dropdowncontainer {
+    position: absolute;
+    background-color: aqua;
+    width: 65%;
+    padding: 1.4rem 2rem;
+    background-color: rgba(255, 255, 255, 1.1);
+    border-radius: 20px;
+    left: 15%;
+    top: 100%;
+    margin-top: 0.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.smalldropdown {
+    flex-direction: column;
+    width: fit-content;
+    left: 57%;
+    gap: 1rem;
+}
+
+
+.dropdownleft,
+.dropdownright {
+    display: flex;
+    flex-direction: column;
+    color: rgb(35, 32, 212);
+}
+
+.optionscontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menuoption {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.imgcont {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(35, 32, 212, 0.35) 0px 5px 15px;
+
+}
+
+.dropdowntop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.homeafter::after {
+    margin-left: 0.1rem;
+    width: 5px;
+    content: url(/public/img/dropdown-top-after1.svg);
+}
+
+.dropdowncontainer p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.dropdowncontainer button {
+    padding: .7rem;
+    background-color: #2320D4;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.remoteafter::after {
+    content: url(/public/img/home-visit-service-icon.svg);
+}
+
+.smalldropdowntwo {
+    flex-direction: column;
+    width: fit-content;
+    left: 75%;
+    gap: 1rem;
+}

@@ -1,0 +1,170 @@
+.covidbanner {
+    background-color: #111c63;
+    width: 100vw;
+    height: 10vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #ffffff;
+    font-family: AvenirNext-Bold, sans-serif;
+}
+
+.row button {
+    padding: 0.6 rem;
+    border: none;
+    border-radius: 15px;
+    width: 160px;
+    color: #111c63;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.covidimg1 {
+    position: absolute;
+    top: 0;
+    right: 80%;
+    width: 80px;
+    transform: translateY(-30%);
+}
+
+.covidimg2 {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 100px;
+    transform: translateY(20%);
+}
+
+.covidimg3 {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100px;
+    transform: translateY(20%);
+}
+
+.covidimg4 {
+    position: absolute;
+    width: 180px;
+    transform: translate(-10%, -30%);
+    z-index: -1;
+}
+
+.covidimg5 {
+    position: absolute;
+    width: 200px;
+    left: 92%;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    color: #1DCBB6;
+    font-family: AvenirNext-Bold, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+nav {
+    padding-left: 15rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    ;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index: 99999;
+    background-color: #ffffff;
+}
+
+.stickyheader {
+    position: -webkit-sticky;
+    /* Safari & IE */
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 1rem;
+    display: flex;
+    font-size: 1.2rem;
+    color: rgb(32, 32, 32);
+    margin-right: 3rem;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul li {
+    color: rgb(17, 28, 99);
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    text-align: center;
+    transition: background-color, 1s;
+    border-radius: 40px;
+}
+
+nav ul li:hover {
+    background-color: rgb(17, 28, 99, 0.1);
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 0.3rem;
+    margin-bottom: 0.14rem;
+    -webkit-transform: rotate(45deg);
+}
+
+.buttons button {
+    border: none;
+    font-size: 13px;
+    padding: 0.9rem;
+    color: #ffffff;
+    font-weight: 900;
+    border-radius: 30px;
+    font-family: AvenirNext-Bold, sans-serif;
+}
+
+
+.buttons button:nth-child(1) {
+    background-color: #1DCBB6;
+    ;
+}
+
+.buttons button:nth-child(1):hover {
+    box-shadow: 0 0 0 0.1rem rgba(76 225 198 / 40%);
+}
+
+.buttons button:nth-child(2) {
+    background-color: #2320D4;
+}
+
+.buttons button:nth-child(2):hover {
+    box-shadow: 0 0 0 0.1rem #2320D4;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+
+}

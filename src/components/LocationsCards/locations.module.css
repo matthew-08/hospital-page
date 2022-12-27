@@ -1,0 +1,98 @@
+.container {
+    width: 60%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    padding: 0;
+    font-size: 4rem;
+    color: #280198
+}
+
+.cardscontainer {
+    width: 100%;
+    height: 58%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 1;
+    gap: 1rem;
+}
+
+.card {
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+    padding: 0.5rem;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cardtop {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.card:hover .cardtop {
+    height: 50%;
+}
+
+.cardtop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardbottom {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #280198;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cardbottom p {
+    color: black;
+}
+
+.cardbottom p,
+.cardbottom h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.cardbottom h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardbottom button {
+    width: 50%;
+    border: none;
+    background-color: #280198;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.button {
+    margin-top: 0.4rem;
+    display: flex;
+    gap: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cardbottom button:nth-child(2) {
+    background-color: #1DCBB6;
+}
