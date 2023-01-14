@@ -96,15 +96,3 @@
 .cardbottom button:nth-child(2) {
     background-color: #1DCBB6;
 }
-
-.overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(100, 100, 111, 0.8);
-    overflow-x: hidden;
-    z-index: 1500;
-}
