@@ -11,7 +11,23 @@ function App() {
 
   return (
     <div className="App">
-      
+      <NavBar />
+      <div className="carousel-section">
+        <MainCarousel />
+      </div>
+      <section className='locations-section'>
+        <div className="locations-background">
+          <img src="img/bubble-background.svg" />
+        </div>
+        <LocationsCards />
+      </section>
+      <section className='more-info-section'>
+        <MoreSwiper />
+      </section>
+      <section className='insurance-section'>
+        <img src="/img/bg-inusrance.svg" />
+
+      </section>
     </div>
   )
 }
