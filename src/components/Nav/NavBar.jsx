@@ -16,34 +16,7 @@ export default function NavBar() {
     return (
         <>
             <header>
-                <div className={styles.covidbanner}>
-                    <div className={styles.row}>
-                        <h2>COVID-19 Updates</h2>
-                        <button>Read More</button>
-                        <img src="/img/covid-icon.svg" alt="" />
-                        <img className={styles.covidimg4}
-                            src="/img/covid-virus-icon-blue.svg" alt="" />
-                    </div>
-                    <img className={styles.covidimg1}
-                        src="/img/covid-icon.svg" alt="" />
-                    <img className={styles.covidimg2}
-                        src="/img/covid-icon.svg" alt="" />
-                    <img className={styles.covidimg3}
-                        src="/img/covid-virus-icon-blue.svg" alt="" />
-                    <img className={styles.covidimg5}
-                        src="/img/covid-virus-icon-blue.svg" alt="" />
-
-                </div>
-            </header>
-            <header className={styles.stickyheader}>
-                <nav>
-                    <div className={styles.logo}>
-                        <img src="/img/icon.png" />
-                        <h3>U-Health</h3>
-                    </div>
-                    <ul>
-                        <li>
-                            Home
+               
                         </li>
                         <li
                             ref={dropdownLiOne}
