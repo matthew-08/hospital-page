@@ -32,14 +32,7 @@ export default function MainCarousel() {
                     </div>
                 </div>
                 <SwiperSlide>
-                    <img src="/img/hospital-pic1.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/img/hospital-pic2.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/img/hospital-pic3.jpg" alt="" />
-                </SwiperSlide>
+     
                 <SwiperSlide>
                     <img src="/img/hospital-pic4.jpg" alt="" />
                 </SwiperSlide>
