@@ -2,7 +2,7 @@ import React from 'react'
 import MenuOption from './MenuOption'
 import styles from './dropdown.module.css'
 import { useRef, useEffect } from 'react'
-/* 
+
 export default function SmallDropdown({ dropDownItemsArray, liRef, closeDropdown, poop }) {
     const dropdown = useRef(null)
 
@@ -33,4 +33,3 @@ export default function SmallDropdown({ dropDownItemsArray, liRef, closeDropdown
         </div>
     )
 }
- */
