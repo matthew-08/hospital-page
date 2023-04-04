@@ -1,10 +1,19 @@
 import React from 'react'
 import styles from './locations.module.css'
+import { useState } from 'react'
+import Modal from './Modal'
 
 
 export default function Card() {
+    const [modal, setModal] = useState(false)
+
     return (
-        <div className={styles.card}>
+        <div className={styles.card}
+            onClick={() => setModal(true)}
+        >
+            {modal &&
+                <Modal />
+            }
             <div className={styles.cardtop}>
                 <img src="/img/location-card-1.jpg" alt="" />
             </div>

@@ -79,15 +79,18 @@
     margin-right: 4rem;
 }
 
+header {
+    position: relative;
+}
+
 nav {
     padding-left: 15rem;
     display: flex;
     align-items: center;
     position: relative;
-    ;
     top: 0;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-    z-index: 99999;
+    z-index: 10;
     background-color: #ffffff;
 }
 
@@ -96,7 +99,7 @@ nav {
     /* Safari & IE */
     position: sticky;
     top: 0;
-    z-index: 99999;
+    z-index: 10;
 }
 
 nav ul {
